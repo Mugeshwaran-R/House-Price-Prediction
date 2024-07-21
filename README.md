@@ -36,11 +36,10 @@ The dataset used for this project is `Bengaluru_House_Data.csv`, which contains 
 ```python
 # Predict price for a 2 BHK house in 1st Phase JP Nagar with 1000 sqft and 2 bathrooms
 predict_price('1st Phase JP Nagar', 1000, 2, 2)
+```
 
+```python
 # Predict price for a 3 BHK house in Indira Nagar with 1000 sqft and 3 bathrooms
 predict_price('Indira Nagar', 1000, 3, 3)
 ```
 
-### Visualization Examples
-- Scatter plot to visualize price per square foot for 2 BHK and 3 BHK properties in different locations.
-- Histograms to visualize the distribution of `price_per_sqft` and `bath` features.
