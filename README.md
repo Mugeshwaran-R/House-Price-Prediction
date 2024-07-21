@@ -37,9 +37,10 @@ The dataset used for this project is `Bengaluru_House_Data.csv`, which contains 
 # Predict price for a 2 BHK house in 1st Phase JP Nagar with 1000 sqft and 2 bathrooms
 predict_price('1st Phase JP Nagar', 1000, 2, 2)
 ```
-
+Output: 83.86 Lakhs
 ```python
 # Predict price for a 3 BHK house in Indira Nagar with 1000 sqft and 3 bathrooms
 predict_price('Indira Nagar', 1000, 3, 3)
 ```
+Output: 195.52 Lakhs
 
