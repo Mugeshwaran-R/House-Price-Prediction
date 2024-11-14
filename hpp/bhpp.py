@@ -3,10 +3,10 @@ import pickle
 import numpy as np
 
 # Load the model
-with open('C:/Users/w1mug/study materials/data science/streamlit/banglore_home_prices_model.pickle', 'rb') as f:
+with open('hpp/banglore_home_prices_model.pickle', 'rb') as f:
     model = pickle.load(f)
 
-with open('C:/Users/w1mug/study materials/data science/streamlit/X_table.pickle', 'rb') as f:
+with open('hpp/X_table.pickle', 'rb') as f:
     X = pickle.load(f)
 
 def predict_price(location,sqft,bath,bhk):    
