@@ -35,5 +35,9 @@ bath = st.selectbox('Bath', [1,2,3,4,5], index = None)
 location = st.selectbox('Location', columns, index = None)
 
 if st.button('Predict'):
-    result = predict_price(location,sqft,bath,bhk)
-    st.success('The estimated price is Rs. {} lakhs'.format(round(result,2)))
+    if location == ' ' or sqft == None or bath == None or bhk == None or location is not int:
+        st.error('Please fill all the fields')
+    else:
+        result = predict_price(location,sqft,bath,bhk)
+        st.success('The estimated price is Rs. {} lakhs'.format(round(result,2)))
+
