@@ -3,7 +3,6 @@
 ### Overview
 This repository contains a comprehensive project focused on predicting house prices in Bengaluru using machine learning techniques. The project involves data cleaning, feature engineering, outlier detection, and regression modeling to provide accurate price predictions based on various property features.
 
-[Check out the live app](https://home-price-prediction.streamlit.app/)
 <a href="https://home-price-prediction.streamlit.app/" target="_blank">Check out the live app</a>
 
 
