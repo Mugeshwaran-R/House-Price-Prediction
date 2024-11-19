@@ -3,6 +3,8 @@
 ### Overview
 This repository contains a comprehensive project focused on predicting house prices in Bengaluru using machine learning techniques. The project involves data cleaning, feature engineering, outlier detection, and regression modeling to provide accurate price predictions based on various property features.
 
+[Check out the live app](https://home-price-prediction.streamlit.app/)
+
 ### Features
 - **Data Loading and Preprocessing**: The dataset is loaded from a CSV file and initial preprocessing steps are performed, including handling missing values and dropping irrelevant columns.
 - **Feature Engineering**: New features are created to enhance the model's predictive power, such as converting total square footage to a numeric format and calculating the price per square foot.
